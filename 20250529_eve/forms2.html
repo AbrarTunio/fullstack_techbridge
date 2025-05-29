@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <h1>Forms (Radio, Checkbox and Select - Options)</h1>
+ <hr>
+ <form action="" enctype="multipart/form-data">
+    <div class="male">
+        <input  id="male" type="radio" name="gender">
+        <label for="male">Male</label>    
+    </div>
+    <div class="female">
+        <input id="female" type="radio" name="gender">
+        <label for="female">Female</label>   
+    </div>
+    <hr>
+    <div class="country">
+        <p>Which country do you like?</p>
+        <div class="india">
+            <input type="checkbox" id="india">
+            <label for="india">India</label>
+        </div>
+        <div class="china">
+            <input type="checkbox" id="china">
+            <label for="china">China</label>
+        </div>
+        <div class="Iran">
+            <input type="checkbox" id="Iran">
+            <label for="Iran">Iran</label>
+        </div>
+        <hr>
+        <select name="fruits" id="fruits">
+            <option value="" selected disabled>----Choose from fruits----</option>
+            <option value="mango">Mango</option>
+            <option value="banana">Banana</option>
+            <option value="grapes">Grapes</option>
+        </select>
+        <hr>
+        
+        <div class="picture">
+            <label for="">Upload Your Picture?</label>
+            <input type="file">
+        </div>
+        <div class="submit">
+            <input type="submit">
+        </div>
+    </div>
+
+
+ </form>
+</body>
+</html>
