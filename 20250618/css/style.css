@@ -1,0 +1,21 @@
+h1  {
+  font-size: 2em; /*1em 16px */
+  border: 2px solid;
+  padding: 25px 10px ; 
+  background-image: url('https://picsum.photos/800');
+}
+
+p{
+ line-height: 1.5;
+}
+
+a {
+ text-decoration: none;
+ display: inline-block;
+ transform: rotate(-20deg);
+ border: 1px solid;
+ border-radius: 10px;
+ padding: 5px;
+ background: orangered;
+
+}
