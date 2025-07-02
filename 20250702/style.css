@@ -1,0 +1,30 @@
+section{
+    /* border: 1px solid; */
+    margin-top: 50px;
+    position: relative;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: fixed;  
+    top:10px; 
+    background-color: orange;
+}
+
+#two{
+    left: 50px;
+    background-color: brown;
+}
+#three{
+    left: 90px;
+    background-color: aqua;
+}
+
+h1{
+    color: green;
+}
+
+

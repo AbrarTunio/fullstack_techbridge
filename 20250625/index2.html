@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <script>
+  numbers = [0,1,2,3,4]
+  names = ['Dua' , 'Aliza' , 'Moomal' , 'Kashaf' , 'Sarang']
+  caste = ['Khoso' , 'Baloch', 'Sadhwani' , 'Khoso' , 'Baloch']
+  
+  for ( n of numbers ){
+     console.log("Welcome" , names[n] )
+  }
+  // Method One
+  for ( n = 0 ; names.length > n ;  n++ ){
+   console.log("Welcome" , names[n] )
+  }
+ // Method Two
+  let n = 0
+  while( names.length > n  ){
+   console.log("Welcome" , names[n] )
+   n++
+  }
+ // Method Three
+ </script>
+</body>
+</html>
