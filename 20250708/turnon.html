@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="show">Checking Attributes</h3>
+    <div class="text">
+        <img src="off.png" alt="">
+    </div>
+    <div class="text">
+        <button>Turn On/Turn Off</button>
+    </div>
+
+<script>
+        // element.hasAttribute('src') //true or false
+        // element.getAttribute('src') // myimg.png
+        // element.setAttribute('src','yourimg.png')
+        let btn = document.querySelector('button')
+        let img = document.querySelector('img')
+
+        btn.addEventListener('click' , ()=>{
+            if ( img.getAttribute('src') == 'on.png' ){
+                img.setAttribute('src' , 'off.png')
+            }else{
+                img.setAttribute('src' , 'on.png')
+            }
+        })
+    </script>
+</body>
+</html>

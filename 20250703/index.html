@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .success {
+            background-color: green;
+            border: 1px solid red;
+            text-align: center;
+        }
+        .btn-red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p onclick="this.style.color = 'red'" >Turn me green!</p> -->
+    <p>Turn me green!</p>
+    <button>Change</button>
+    <script>
+        let para = document.querySelector('p')
+        let btn = document.querySelector('button')
+        
+        btn.addEventListener( 'click' , ()=>{
+            para.classList.toggle('success')
+            btn.classList.toggle('btn-red')
+        } )
+
+        names = ['Abrar' , 'Sarang' , 'Aliza' , 'Dua']
+        surnames = ['Tunio' , 'Khoso' , 'Baloch' , 'Khoso']
+        count = surnames.length
+
+        for (idx in names){
+            console.log( `${names[idx]} ${surnames[1-1]}` ) 
+            count--   
+        }
+
+        //  para.addEventListener( 'click' , ()=>{
+        //     para.style.color = 'green';
+        //     para.style.backgroundColor = 'orange';
+        //  } )   
+    
+    </script>
+</body>
+</html>
