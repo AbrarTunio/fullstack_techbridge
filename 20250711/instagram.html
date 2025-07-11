@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+        }
+
+
+        .left{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                border-radius: 50%;
+                            }
+        }
+        .right{
+            width: 400px;
+            padding: 15px;
+        }
+        .manage{
+            display: flex;
+            margin-bottom: 15px;
+            div{
+                margin-right:10px
+            }
+            :first-child{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            :nth-child(2) , :nth-child(3) {
+                border-radius: 7px;
+                padding: 4px 6px;
+                background-color: rgb(249, 249, 249);
+            }
+        }
+        .analytics{
+            display: flex;
+            div{
+                margin-right: 20px
+            }
+        }
+        .details {
+            a  {
+                text-decoration: none;
+                color: gray;
+                border-radius: 7px;
+                padding: 3px 5px;
+                background-color: rgb(249, 249, 249);
+            }
+            ul{
+                list-style-type: none;
+                padding:0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row parent">
+            <div class="col left child">
+                <img width="150" height="150" src="Project_AutoPoster.png" alt="">
+            </div>
+            <div class="col right child">
+                <!-- Manage Area -->
+                <section class="manage">
+                    <div class="col">abrar.tunio</div>
+                    <div class="col">Edit profile</div>
+                    <div class="col">View archive</div>
+                    <div class="col">⚙️</div>
+                </section>
+
+                <!-- Analytics -->
+                <section class="analytics">
+                    <div class="aitems"><strong>110</strong> posts</div>
+                    <div class="aitems"><strong>225</strong> followers</div>
+                    <div class="aitems"><strong>241</strong> following</div>
+                </section>
+
+                <!-- Details -->
+                <section class="details">
+                    <h4>Abrar Hussain</h4>
+                    <div>
+                        <a href="">@abrar.tunio</a>
+                    </div>
+                    <ul>
+                        <li>Founder and CEO of Codepro Softwarehouse</li>
+                        <li>Founder and Strategic Partner of TechBridge</li>
+                        <li>Founder of NetPro NFC...</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
