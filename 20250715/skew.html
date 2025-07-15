@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        section{
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+            transform: skew(10deg);
+            /* margin: auto; */
+        }
+        .right{
+            margin-top: 10px ;
+            margin-left: 15px;
+            background-color: brown;
+            position: relative;
+        }
+        .left{
+            background-color: violet;
+            position: relative;
+            transition: 1s;
+        }
+        .left:hover{
+            z-index: 1;
+            margin-left: -16px;
+            transition: 1s;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <section class="right">
+
+        </section>
+        <section class="left">
+
+        </section>
+    </div>
+    
+</body>
+</html>
